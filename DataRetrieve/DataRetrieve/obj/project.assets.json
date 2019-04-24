@@ -13080,11 +13080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\DataRetrieve\\DataRetrieve.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve\\DataRetrieve.csproj",
       "projectName": "DataRetrieve",
-      "projectPath": "D:\\DataRetrieve\\DataRetrieve\\DataRetrieve.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve\\DataRetrieve.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\DataRetrieve\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13103,32 +13103,32 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\DataRetrieve\\Capital.Library\\Capital.Library.csproj": {
-              "projectPath": "D:\\DataRetrieve\\Capital.Library\\Capital.Library.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\Capital.Library\\Capital.Library.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\Capital.Library\\Capital.Library.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.MiddleWare\\DataRetrieve.MiddleWare.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.MiddleWare\\DataRetrieve.MiddleWare.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.MiddleWare\\DataRetrieve.MiddleWare.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.MiddleWare\\DataRetrieve.MiddleWare.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj"
             }
           }
         }

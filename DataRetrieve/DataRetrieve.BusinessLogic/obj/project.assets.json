@@ -12608,11 +12608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj",
       "projectName": "DataRetrieve.BusinessLogic",
-      "projectPath": "D:\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.BusinessLogic\\DataRetrieve.BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\DataRetrieve.BusinessLogic\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12631,14 +12631,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.DataAccess\\DataRetrieve.DataAccess.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj"
             }
           }
         }

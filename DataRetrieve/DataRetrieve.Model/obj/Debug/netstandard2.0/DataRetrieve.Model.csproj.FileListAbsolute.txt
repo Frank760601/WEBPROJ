@@ -19,7 +19,6 @@ D:\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.c
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\bin\Debug\netstandard2.0\DataRetrieve.Model.deps.json
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\bin\Debug\netstandard2.0\DataRetrieve.Model.dll
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\bin\Debug\netstandard2.0\DataRetrieve.Model.pdb
-C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.csprojAssemblyReference.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.csproj.CoreCompileInputs.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.AssemblyInfoInputs.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.AssemblyInfo.cs

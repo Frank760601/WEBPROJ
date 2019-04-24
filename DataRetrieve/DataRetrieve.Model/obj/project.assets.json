@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj",
       "projectName": "DataRetrieve.Model",
-      "projectPath": "D:\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Model\\DataRetrieve.Model.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\DataRetrieve.Model\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

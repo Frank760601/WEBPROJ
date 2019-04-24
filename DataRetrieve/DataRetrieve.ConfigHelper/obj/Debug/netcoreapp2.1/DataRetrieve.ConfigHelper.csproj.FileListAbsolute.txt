@@ -18,7 +18,6 @@ D:\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.C
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\bin\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.deps.json
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\bin\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.dll
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\bin\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.pdb
-C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.csprojAssemblyReference.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.csproj.CoreCompileInputs.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.AssemblyInfoInputs.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.AssemblyInfo.cs

@@ -1,0 +1,107 @@
+﻿@{
+    ViewData["Title"] = "群益投信客戶維護";
+    ViewBag.SiteMapHead = "群益投信客戶維護";
+}
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Metronic Admin Theme #1 | Bootstrap Form Wizard</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Preview page of Metronic Admin Theme #1 for bootstrap form wizard demos using Twitter Bootstrap Wizard Plugin" name="description" />
+    <meta content="" name="author" />
+
+</head>
+<body>
+    @using (Html.BeginForm("Insert", "InvestmentTrust", FormMethod.Post))
+    {
+    <div id="ViewAccount" style="font-family:'微軟正黑體';color:#4F4F4F	">
+        <div class="col-md-6 portlet light portlet-fit portlet-form bordered">
+            <div class="portlet-body">
+                <div class="form-body">
+
+                    <div class="form-group form-md-line-input">
+                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important" for="form_control_1">
+                            編號
+                            <span class="required" aria-required="true">*</span>
+                        </label>
+                        <div class="col-md-4 col-xs-12">
+                            <input type="text" class="form-control" placeholder="" name="NO" aria-required="true" aria-invalid="false" aria-describedby="name-error"><span id="name-error" class="help-block help-block-error"></span>
+                            <div class="form-control-focus"> </div>
+                            <span class="help-block">請輸入編號</span>
+                        </div>
+                    </div>
+                    <div class="form-group form-md-line-input">
+                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important" for="form_control_1">
+                            客戶名稱
+                            <span class="required" aria-required="true">*</span>
+                        </label>
+                        <div class="col-md-7 col-xs-12">
+                            <input type="text" class="form-control" placeholder="" name="NAME" aria-required="true" aria-invalid="false" aria-describedby="name-error"><span id="name-error" class="help-block help-block-error"></span>
+                            <div class="form-control-focus"> </div>
+                            <span class="help-block">請輸入客戶名稱</span>
+                        </div>
+                    </div>
+                    <div class="form-group form-md-line-input">
+                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important" for="form_control_1">
+                            身分證字號或營利事業統一編號
+                            <span class="required" aria-required="true">*</span>
+                        </label>
+                        <div class="col-md-7 col-xs-12">
+                            <input type="text" class="form-control" placeholder="" name="IDNO" aria-required="true" aria-invalid="false" aria-describedby="name-error"><span id="name-error" class="help-block help-block-error"></span>
+                            <div class="form-control-focus"> </div>
+                            <span class="help-block">請輸入身分證字號或營利事業統一編號</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-5 col-md-7">
+                            <button type="button" id="GoBack" class="btn blue">回上一頁</button>
+                            <button type="submit" id="btnSubmit" class="btn green">新增</button>
+                            <button type="reset" class="btn default">重填</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    }
+</body>
+<script>
+    var check = true;
+    $(function () { 
+        $("[name=NO],[name=NAME],[name=IDNO]").keyup(function () { 
+            if (!$(this).val()) {
+                $(this).attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
+            } else { 
+                $(this).attr("aria-invalid", false).closest("div").find(".help-block-error").html('').closest(".form-md-line-input").removeClass("has-error");
+            }
+        })
+        $("#GoBack").click(function () {
+            location.href = "@Url.Action("Index","InvestmentTrust")";
+        })
+        $("#btnSubmit").click(function (e) { 
+            e.preventDefault();
+            checkField();
+            if (check)
+                $('form').submit();
+        })
+    })
+
+    function checkField() { 
+        check = true;
+        if (!$("[name=NO]").val()) {
+            $("[name=NO]").attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
+            check = check && false;
+        }
+        if (!$("[name=NAME]").val()) {
+            $("[name=NAME]").attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
+            check = check && false;
+        }
+        if (!$("[name=IDNO]").val()) {
+            $("[name=IDNO]").attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
+            check = check && false;
+        }
+    }
+</script>

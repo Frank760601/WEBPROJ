@@ -24,7 +24,6 @@ C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\bin\Debug\netcoreapp2.
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\bin\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.runtimeconfig.dev.json
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\bin\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.dll
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\bin\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.pdb
-C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.csprojAssemblyReference.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.csproj.CoreCompileInputs.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.AssemblyInfoInputs.cache
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.AssemblyInfo.cs

@@ -841,11 +841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj",
       "projectName": "DataRetrieve.ConfigHelper",
-      "projectPath": "D:\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\DataRetrieve.ConfigHelper\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.ConfigHelper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

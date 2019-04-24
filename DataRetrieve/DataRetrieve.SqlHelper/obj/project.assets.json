@@ -11562,11 +11562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj",
       "projectName": "DataRetrieve.SqlHelper",
-      "projectPath": "D:\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.SqlHelper\\DataRetrieve.SqlHelper.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\DataRetrieve.SqlHelper\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.SqlHelper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

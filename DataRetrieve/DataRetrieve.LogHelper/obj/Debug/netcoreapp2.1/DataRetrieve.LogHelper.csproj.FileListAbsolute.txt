@@ -26,4 +26,3 @@ C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.LogHelper\obj\Debug\netcoreapp2.
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.LogHelper\obj\Debug\netcoreapp2.1\DataRetrieve.LogHelper.AssemblyInfo.cs
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.LogHelper\obj\Debug\netcoreapp2.1\DataRetrieve.LogHelper.dll
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.LogHelper\obj\Debug\netcoreapp2.1\DataRetrieve.LogHelper.pdb
-C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.LogHelper\obj\Debug\netcoreapp2.1\DataRetrieve.LogHelper.csprojAssemblyReference.cache

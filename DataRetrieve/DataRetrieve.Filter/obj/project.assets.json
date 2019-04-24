@@ -12506,11 +12506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj",
       "projectName": "DataRetrieve.Filter",
-      "projectPath": "D:\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Filter\\DataRetrieve.Filter.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\DataRetrieve.Filter\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.Filter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12529,8 +12529,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\DataRetrieve\\Capital.Library\\Capital.Library.csproj": {
-              "projectPath": "D:\\DataRetrieve\\Capital.Library\\Capital.Library.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\Capital.Library\\Capital.Library.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\Capital.Library\\Capital.Library.csproj"
             }
           }
         }

@@ -5258,11 +5258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj",
       "projectName": "DataRetrieve.LogHelper",
-      "projectPath": "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\DataRetrieve.LogHelper\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12487,11 +12487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DataRetrieve\\Capital.Library\\Capital.Library.csproj",
+      "projectUniqueName": "C:\\webproject\\WEBPROJ\\DataRetrieve\\Capital.Library\\Capital.Library.csproj",
       "projectName": "Capital.Library",
-      "projectPath": "D:\\DataRetrieve\\Capital.Library\\Capital.Library.csproj",
+      "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\Capital.Library\\Capital.Library.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\DataRetrieve\\Capital.Library\\obj\\",
+      "outputPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\Capital.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12510,11 +12510,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.ConfigHelper\\DataRetrieve.ConfigHelper.csproj"
             },
-            "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj": {
-              "projectPath": "D:\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj"
+            "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj": {
+              "projectPath": "C:\\webproject\\WEBPROJ\\DataRetrieve\\DataRetrieve.LogHelper\\DataRetrieve.LogHelper.csproj"
             }
           }
         }
