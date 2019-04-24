@@ -1,0 +1,10 @@
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\bin\Release\netcoreapp2.1\NLog.config
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\bin\Release\netcoreapp2.1\DataRetrieve.LogHelper.deps.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\bin\Release\netcoreapp2.1\DataRetrieve.LogHelper.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\bin\Release\netcoreapp2.1\DataRetrieve.LogHelper.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\obj\Release\netcoreapp2.1\DataRetrieve.LogHelper.csproj.CoreCompileInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\obj\Release\netcoreapp2.1\DataRetrieve.LogHelper.AssemblyInfoInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\obj\Release\netcoreapp2.1\DataRetrieve.LogHelper.AssemblyInfo.cs
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\obj\Release\netcoreapp2.1\DataRetrieve.LogHelper.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\obj\Release\netcoreapp2.1\DataRetrieve.LogHelper.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.LogHelper\obj\Release\netcoreapp2.1\DataRetrieve.LogHelper.csprojAssemblyReference.cache

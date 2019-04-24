@@ -1,0 +1,9 @@
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\bin\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.deps.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\bin\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\bin\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\obj\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.csprojAssemblyReference.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\obj\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.csproj.CoreCompileInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\obj\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.AssemblyInfoInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\obj\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.AssemblyInfo.cs
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\obj\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.ConfigHelper\obj\Release\netcoreapp2.1\DataRetrieve.ConfigHelper.pdb

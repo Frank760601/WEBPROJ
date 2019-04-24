@@ -1,0 +1,17 @@
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\NLog.config
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\DataRetrieve.Filter.deps.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\DataRetrieve.Filter.runtimeconfig.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\DataRetrieve.Filter.runtimeconfig.dev.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\DataRetrieve.Filter.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\DataRetrieve.Filter.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\Capital.Library.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\DataRetrieve.LogHelper.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\Capital.Library.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\bin\Release\netcoreapp2.1\DataRetrieve.LogHelper.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\obj\Release\netcoreapp2.1\DataRetrieve.Filter.csprojAssemblyReference.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\obj\Release\netcoreapp2.1\DataRetrieve.Filter.csproj.CoreCompileInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\obj\Release\netcoreapp2.1\DataRetrieve.Filter.AssemblyInfoInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\obj\Release\netcoreapp2.1\DataRetrieve.Filter.AssemblyInfo.cs
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\obj\Release\netcoreapp2.1\DataRetrieve.Filter.csproj.CopyComplete
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\obj\Release\netcoreapp2.1\DataRetrieve.Filter.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.Filter\obj\Release\netcoreapp2.1\DataRetrieve.Filter.pdb

@@ -1,0 +1,11 @@
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\bin\Release\netcoreapp2.1\DataRetrieve.SqlHelper.deps.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\bin\Release\netcoreapp2.1\DataRetrieve.SqlHelper.runtimeconfig.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\bin\Release\netcoreapp2.1\DataRetrieve.SqlHelper.runtimeconfig.dev.json
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\bin\Release\netcoreapp2.1\DataRetrieve.SqlHelper.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\bin\Release\netcoreapp2.1\DataRetrieve.SqlHelper.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\obj\Release\netcoreapp2.1\DataRetrieve.SqlHelper.csproj.CoreCompileInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\obj\Release\netcoreapp2.1\DataRetrieve.SqlHelper.AssemblyInfoInputs.cache
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\obj\Release\netcoreapp2.1\DataRetrieve.SqlHelper.AssemblyInfo.cs
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\obj\Release\netcoreapp2.1\DataRetrieve.SqlHelper.dll
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\obj\Release\netcoreapp2.1\DataRetrieve.SqlHelper.pdb
+D:\TFS\TDM\DataRetrieve\DataRetrieve.SqlHelper\obj\Release\netcoreapp2.1\DataRetrieve.SqlHelper.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\NLog.config
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\Capital.Library.deps.json
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\Capital.Library.runtimeconfig.json
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\Capital.Library.runtimeconfig.dev.json
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\Capital.Library.dll
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\Capital.Library.pdb
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\DataRetrieve.LogHelper.dll
+D:\TFS\TDM\DataRetrieve\Capital.Library\bin\Release\netcoreapp2.1\DataRetrieve.LogHelper.pdb
+D:\TFS\TDM\DataRetrieve\Capital.Library\obj\Release\netcoreapp2.1\Capital.Library.csprojAssemblyReference.cache
+D:\TFS\TDM\DataRetrieve\Capital.Library\obj\Release\netcoreapp2.1\Capital.Library.csproj.CoreCompileInputs.cache
+D:\TFS\TDM\DataRetrieve\Capital.Library\obj\Release\netcoreapp2.1\Capital.Library.AssemblyInfoInputs.cache
+D:\TFS\TDM\DataRetrieve\Capital.Library\obj\Release\netcoreapp2.1\Capital.Library.AssemblyInfo.cs
+D:\TFS\TDM\DataRetrieve\Capital.Library\obj\Release\netcoreapp2.1\Capital.Library.csproj.CopyComplete
+D:\TFS\TDM\DataRetrieve\Capital.Library\obj\Release\netcoreapp2.1\Capital.Library.dll
+D:\TFS\TDM\DataRetrieve\Capital.Library\obj\Release\netcoreapp2.1\Capital.Library.pdb
