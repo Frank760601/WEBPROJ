@@ -68,9 +68,18 @@ namespace DataRetrieve.Controllers
             int pageSize = 10;
             pageIndex = Int32.Parse(form["page"]);
 
-            var data = InvestmentTrustBL.getInstance().Query(form["NO"].ToString(), form["NAME"], form["IDNO"], pageIndex, pageSize);
+            var data = InvestmentTrustBL.getInstance().Query(form["vNO"].ToString(), form["vNAME"], form["vIDNO"], pageIndex, pageSize);
 
             return PartialView("~/Views/InvestmentTrust/_PartialIndex.cshtml", data);
+        }
+        [HttpPost]
+        public async Task<JsonResult> Update()
+        {
+            dynamic model = new ExpandoObject();
+            IFormCollection form = await HttpContext.Request.ReadFormAsync();
+            (model.MsgCode, model.MsgName) = InvestmentTrustBL.getInstance().UpdateInvestmentTrust(form["NO"].ToString(), form["NAME"], form["IDNO"]);
+
+            return Json(model);
         }
     }
 }

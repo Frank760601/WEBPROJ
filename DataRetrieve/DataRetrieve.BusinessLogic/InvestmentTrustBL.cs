@@ -28,5 +28,11 @@ namespace DataRetrieve.BusinessLogic
             model.TRUSTHEAD = tempmodel.Count() > 0 ? (tempmodel.FirstOrDefault() as IDictionary<string, object>).Keys.ToList() : new List<string>();
             return model;
         }
+        public (bool MsgCode, string MsgName) UpdateInvestmentTrust(string NO, string NAME, string IDNO)
+        {
+            var result = InvestmentTrustDA.getInstance().UpdateInvestmentTrust(NO, NAME, IDNO);
+
+            return result ? (result, "成功") : (result, "失敗");
+        }
     }
 }

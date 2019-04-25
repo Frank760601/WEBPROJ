@@ -24,3 +24,4 @@ C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\D
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.AssemblyInfo.cs
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.dll
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.pdb
+C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.Model\obj\Debug\netstandard2.0\DataRetrieve.Model.csprojAssemblyReference.cache

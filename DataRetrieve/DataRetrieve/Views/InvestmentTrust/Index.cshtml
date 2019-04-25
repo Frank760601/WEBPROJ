@@ -24,10 +24,9 @@
 <body>
     <div class="row">
         <form asp-controller="InvestmentTrust" asp-action="PartialIndex" data-ajax="true" enctype="multipart/form-data" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#content">
-            <input type="hidden" name="SDate" value="">
-            <input type="hidden" name="EDate" value="">
-            <input type="hidden" name="MarketCode" value="">
-            <input type="hidden" name="strKind" value="">
+            <input type="hidden" name="vNO" value="">
+            <input type="hidden" name="vIDNO" value="">
+            <input type="hidden" name="vNAME" value="">
             <div class="col-md-8">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
@@ -58,15 +57,14 @@
                                 </div>
                             </div>
                             <div class="col-md-12 col-xs-12" style="margin-top:5px;padding:0px!important">
-                                <input type="submit" name="txbSearch" id="txbSearch" value="查詢" class="btn btn-default">
+                                <input type="button" name="txbSearch" id="txbSearch" value="查詢" class="btn btn-default">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <input type="hidden" name="page">
-            @*<input type ="submit" value="Search Books" onclick="work()"/>*@
-            <input type="submit" name="test" value="Search Books" style="display:none" onclick="" />
+            <input type="submit" value="Search Books" style="display:none" onclick="" />
 
         </form>
     </div>
@@ -89,6 +87,10 @@
         }
         $("[name=txbSearch]").click(function (event) {
             $("[name=page]").val(1)
+            $("[name=vNO]").val($("[name=NO]").val())
+            $("[name=vIDNO]").val($("[name=IDNO]").val())
+            $("[name=vNAME]").val($("[name=NAME]").val())
+            $("[type=submit]").click()
         }).click();
         
     })

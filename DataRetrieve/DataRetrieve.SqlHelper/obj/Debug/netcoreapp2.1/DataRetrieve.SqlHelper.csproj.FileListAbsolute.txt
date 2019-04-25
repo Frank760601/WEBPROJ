@@ -29,3 +29,4 @@ C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.AssemblyInfo.cs
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.dll
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.pdb
+C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.SqlHelper\obj\Debug\netcoreapp2.1\DataRetrieve.SqlHelper.csprojAssemblyReference.cache

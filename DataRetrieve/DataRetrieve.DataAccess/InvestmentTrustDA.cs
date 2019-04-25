@@ -50,5 +50,21 @@ namespace DataRetrieve.DataAccess
             sqlHelper.Close();
             return result;
         }
+        public bool UpdateInvestmentTrust(string NO, string NAME, string IDNO)
+        {
+            string SQL = "UPDATE AMD..tblInvestmentTrust SET NAME = @NAME, IDNO = @IDNO WHERE NO = @NO";
+            var p = new DynamicParameters();
+            p.Add("@NO", NO);
+            p.Add("@NAME", NAME);
+            p.Add("@IDNO", IDNO);
+
+            ISqlHelper sqlHelper = SQLHelper.GetInstance("Dapper", Configurations.AMDConnectionString);
+
+            sqlHelper.Open();
+            bool result = sqlHelper.Execute(SQL, 1, (dynamic)p);
+            sqlHelper.Close();
+
+            return result;
+        }
     }
 }

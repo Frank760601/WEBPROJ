@@ -37,7 +37,10 @@
                                         {
                                             @:<tr class="gradeX odd" role="row">
                                                 var row = (Item as IDictionary<string, object>).Values.ToList();
-                                               
+                                                <td class="center" nowrap="nowrap" style="text-align:center">
+                                                    <a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple btnEdit"><i class="fa fa-edit"></i> 修改</a>
+                                                    <a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple btnSave" style="display:none"><i class="fa fa-edit"></i> 儲存</a>
+                                                </td>
                                                 @for (int i = 0; i < row.Count() - 1; i++)
                                                 {
                                                     var value = row[i];
@@ -230,9 +233,74 @@
 
             var page = href.substr(href.indexOf("=") + 1);
             $("[name=page]").val(page)
-            $("[name=test]").click();
+            $("[type=submit]").click()
         });
-        
+        $(".btnEdit").click(function () {
+            if (!EditING) {
+                $(this).closest("tr").find(".Edit:eq(1),.Edit:eq(2)").show();
+                $(this).closest("tr").find(".Show:eq(1),.Show:eq(2)").hide();
+                $(this).closest("tr").find(".btnSave").show();
+                $(this).hide();
+                EditING = true;
+            } else { 
+                alert("無法編輯")
+            }
+        })
+        $(".btnSave").click(function () {
+            var NO = $(this).closest("tr").find(".Edit:eq(0)").val()
+            var NAME = $(this).closest("tr").find(".Edit:eq(1)").val()
+            var IDNO = $(this).closest("tr").find(".Edit:eq(2)").val()
+            
+            var obj = $(this)
+            CheckField(obj)
+            if (!Check) {
+                alert(strCheck)
+            } else {
+                swal({
+                    title: "確定修改？",
+                    type: "question",
+                    showCancelButton: true//顯示取消按鈕
+                }).then(
+                    function (result) {
+                        if (result.value) {
+                            //使用者按下「確定」要做的事
+
+                            $.ajax({
+                                type: 'POST',
+                                url: '@Url.Action("Update","InvestmentTrust")',
+                                data: { NO: NO, NAME: NAME, IDNO: IDNO }, //發送參數
+                                success: function (data) {
+                                    $("[name=txbSearch]").click();
+                                    EditING = false;
+                                    swal("群益投信客戶", "修改" + data.MsgName +"！", "success");
+                                },
+                                error: function (xhr, ajaxOptions, thrownError) {
+                                    alert(xhr.responseText)
+                                }
+                            });
+                        } else {
+                            $(obj).closest("tr").find(".Edit:eq(1)").val($(obj).closest("tr").find(".Show:eq(1)").html())
+                            $(obj).closest("tr").find(".Edit:eq(2)").val($(obj).closest("tr").find(".Show:eq(2)").html())
+                            $(obj).closest("tr").find(".Edit:eq(1),.Edit:eq(2)").hide();
+                            $(obj).closest("tr").find(".Show:eq(1),.Show:eq(2)").show();
+                            $(obj).closest("tr").find(".btnEdit").show();
+                            $(obj).hide();
+                            EditING = false;
+                        }
+                    });//end then 
+            }
+        })
     })
-    
+    function CheckField(obj) {
+        Check = true;
+        strCheck = "";
+        if (!$(obj).closest("tr").find(".Edit:eq(1)").val()) {
+            Check = Check && false;
+            strCheck += "客戶名稱為必填\n";
+        }
+        if (!$(obj).closest("tr").find(".Edit:eq(2)").val()) {
+            Check = Check && false;
+            strCheck += "身份證字號或營利事業統一編號為必填";
+        }
+    }
 </script>
