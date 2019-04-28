@@ -272,7 +272,8 @@
                                 success: function (data) {
                                     $("[name=txbSearch]").click();
                                     EditING = false;
-                                    swal("群益投信客戶", "修改" + data.MsgName +"！", "success");
+                                    //console.log(data.MsgCode.toString().toUpperCase())
+                                    swal("群益投信客戶", "修改" + data.MsgName + "！", data.MsgCode.toString().toUpperCase() == "TRUE" ? "success" : "error");
                                 },
                                 error: function (xhr, ajaxOptions, thrownError) {
                                     alert(xhr.responseText)

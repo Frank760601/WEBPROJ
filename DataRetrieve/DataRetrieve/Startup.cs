@@ -60,7 +60,7 @@ namespace DataRetrieve
             app.UseSession();
             if (env.IsDevelopment())
             {
-                app.UseExceptionHandler("/Error/ErrorPage");
+                //app.UseExceptionHandler("/Error/ErrorPage");
                 app.UseDeveloperExceptionPage();
             }
             else

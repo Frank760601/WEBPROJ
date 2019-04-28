@@ -68,7 +68,7 @@
 
         </form>
     </div>
-    
+    <a href="@Url.Action("Edit")" class="btn btn-outline btn-circle dark btn-sm blue" style="width:80px!important;"><i class="fa fa-calendar-plus-o"></i> 新增</a>
     <div id="content" style="margin-top:10px"></div>
 
 </body>
@@ -80,10 +80,7 @@
     var code = "";
     $(function () {
         if ('@Html.Raw(MsgCode)') {
-            if ('@Html.Raw(MsgCode)'.toUpperCase() == "TRUE")
-                swal("群益投信客戶", "新增成功！", "success");
-            else
-                swal("群益投信客戶", "新增失敗！", "error");
+            swal("群益投信客戶", "新增"+'@Html.Raw(MsgName)'+"！", '@Html.Raw(MsgCode)'.toUpperCase() == "TRUE"?"success":"error");
         }
         $("[name=txbSearch]").click(function (event) {
             $("[name=page]").val(1)

@@ -101,7 +101,7 @@ using DataRetrieve.DataAccess;
             WriteLiteral("<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(101, 442, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33af073587824c5db64186ae41b8a71e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb19017693c94507bcbbd4a33f2ee091", async() => {
                 BeginContext(107, 429, true);
                 WriteLiteral(@"
     <meta charset=""utf-8"" />
@@ -129,7 +129,7 @@ using DataRetrieve.DataAccess;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(545, 3438, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c154dc5b14f4734a46fd2626ef10e16", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc014e2703674527a8747993b40659bf", async() => {
                 BeginContext(551, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();

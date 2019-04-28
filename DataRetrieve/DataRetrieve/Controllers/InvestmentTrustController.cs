@@ -37,7 +37,7 @@ namespace DataRetrieve.Controllers
         private IEmployee _emp;
 
         int AddSign = 0;
-        ILog _log = ILogHelper.GetLog("Nlog");
+        ILog _log = ILogHelper.GetLog("Log4Net");
         public InvestmentTrustController(IEmployee employee, IHostingEnvironment hostingEnvironment) : base(employee, hostingEnvironment)
         {
             _emp = employee;
@@ -80,6 +80,18 @@ namespace DataRetrieve.Controllers
             (model.MsgCode, model.MsgName) = InvestmentTrustBL.getInstance().UpdateInvestmentTrust(form["NO"].ToString(), form["NAME"], form["IDNO"]);
 
             return Json(model);
+        }
+        public ActionResult Edit()
+        {
+            return View();
+        }
+        public async Task<ActionResult> Insert()
+        {
+            IFormCollection form = await HttpContext.Request.ReadFormAsync();
+
+            var data = InvestmentTrustBL.getInstance().InsertInvestmentTrust(form["NO"].ToString(), form["NAME"], form["IDNO"]);
+
+            return RedirectToAction("ReIndex", "InvestmentTrust", new { MsgCode = data.MsgCode, MsgName = data.MsgName });
         }
     }
 }

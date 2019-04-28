@@ -66,5 +66,32 @@ namespace DataRetrieve.DataAccess
 
             return result;
         }
+        public (bool MsgCode, string MsgName) InsertInvestmentTrust(string NO, string NAME, string IDNO)
+        {
+            string SQLQuery = " SELECT * FROM AMD..tblInvestmentTrust WHERE NO = @NO ";
+            var p = new DynamicParameters();
+            p.Add("@NO", NO);
+            ISqlHelper sqlHelper = SQLHelper.GetInstance("Dapper", Configurations.AMDConnectionString);
+            dynamic result = sqlHelper.Query<dynamic>(SQLQuery.ToString(), 1, (dynamic)p);
+            sqlHelper.Close();
+            if (((IEnumerable<dynamic>)result).AsList().Count > 0)
+            {
+                return (false, "失敗(己存在重覆編號資料)");
+            }
+
+            string SQL = "INSERT INTO AMD..tblInvestmentTrust VALUES (@NO, @NAME, @IDNO)";
+            p = new DynamicParameters();
+            p.Add("@NO", NO);
+            p.Add("@NAME", NAME);
+            p.Add("@IDNO", IDNO);
+
+            sqlHelper = SQLHelper.GetInstance("Dapper", Configurations.AMDConnectionString);
+
+            sqlHelper.Open();
+            result = sqlHelper.ExecuteNonQuery(SQL, 1, (dynamic)p);
+            sqlHelper.Close();
+
+            return ((bool)result) ? (true, "成功") : (false, "失敗");
+        }
     }
 }

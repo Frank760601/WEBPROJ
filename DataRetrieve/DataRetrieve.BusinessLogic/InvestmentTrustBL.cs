@@ -34,5 +34,11 @@ namespace DataRetrieve.BusinessLogic
 
             return result ? (result, "成功") : (result, "失敗");
         }
+        public (bool MsgCode, string MsgName) InsertInvestmentTrust(string NO, string NAME, string IDNO)
+        {
+            var result = InvestmentTrustDA.getInstance().InsertInvestmentTrust(NO, NAME, IDNO);
+
+            return result;
+        }
     }
 }
