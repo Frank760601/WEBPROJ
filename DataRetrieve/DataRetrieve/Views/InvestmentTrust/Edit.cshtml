@@ -21,36 +21,33 @@
                 <div class="form-body">
 
                     <div class="form-group form-md-line-input">
-                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important" for="form_control_1">
+                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important;margin-right:10px!important" for="form_control_1">
                             編號
                             <span class="required" aria-required="true">*</span>
                         </label>
-                        <div class="col-md-4 col-xs-12">
-                            <input type="text" class="form-control" placeholder="" name="NO" aria-required="true" aria-invalid="false" aria-describedby="name-error"><span id="name-error" class="help-block help-block-error"></span>
-                            <div class="form-control-focus"> </div>
-                            <span class="help-block">請輸入編號</span>
+                        <div class="col-md-4 col-xs-12" style="padding:0px!important">
+                            @Html.TextBox("NO", null, new { @class = "form-control" })
+                            <span id="name-error" class="help-block help-block-error"></span>
                         </div>
                     </div>
                     <div class="form-group form-md-line-input">
-                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important" for="form_control_1">
+                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important;margin-right:10px!important" for="form_control_1">
                             客戶名稱
                             <span class="required" aria-required="true">*</span>
                         </label>
-                        <div class="col-md-7 col-xs-12">
-                            <input type="text" class="form-control" placeholder="" name="NAME" aria-required="true" aria-invalid="false" aria-describedby="name-error"><span id="name-error" class="help-block help-block-error"></span>
-                            <div class="form-control-focus"> </div>
-                            <span class="help-block">請輸入客戶名稱</span>
+                        <div class="col-md-6 col-xs-12" style="padding:0px!important">
+                            @Html.TextBox("NAME", null, new { @class = "form-control" })
+                            <span id="name-error" class="help-block help-block-error"></span>
                         </div>
                     </div>
                     <div class="form-group form-md-line-input">
-                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important" for="form_control_1">
+                        <label class="col-md-5 control-label" style="text-align:right;padding:0px!important;margin-right:10px!important" for="form_control_1">
                             身分證字號或營利事業統一編號
                             <span class="required" aria-required="true">*</span>
                         </label>
-                        <div class="col-md-7 col-xs-12">
-                            <input type="text" class="form-control" placeholder="" name="IDNO" aria-required="true" aria-invalid="false" aria-describedby="name-error"><span id="name-error" class="help-block help-block-error"></span>
-                            <div class="form-control-focus"> </div>
-                            <span class="help-block">請輸入身分證字號或營利事業統一編號</span>
+                        <div class="col-md-6 col-xs-12" style="padding:0px!important">
+                            @Html.TextBox("IDNO", null, new { @class = "form-control" })
+                            <span id="name-error" class="help-block help-block-error"></span>
                         </div>
                     </div>
                 </div>
@@ -69,39 +66,55 @@
     }
 </body>
 <script>
-    var check = true;
     $(function () { 
         $("[name=NO],[name=NAME],[name=IDNO]").keyup(function () { 
-            if (!$(this).val()) {
-                $(this).attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
-            } else { 
-                $(this).attr("aria-invalid", false).closest("div").find(".help-block-error").html('').closest(".form-md-line-input").removeClass("has-error");
-            }
+            checkField();
         })
         $("#GoBack").click(function () {
             location.href = "@Url.Action("Index","InvestmentTrust")";
         })
         $("#btnSubmit").click(function (e) { 
             e.preventDefault();
-            checkField();
-            if (check)
+            if (checkField())
                 $('form').submit();
         })
     })
 
     function checkField() { 
-        check = true;
+        var check = true;
         if (!$("[name=NO]").val()) {
-            $("[name=NO]").attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
+            FieldError("NO", "[編號]為必填")
             check = check && false;
+        } else if ($("[name=NO]").val().length > 3) {
+            FieldError("NO", "[編號]不可超過3個字元")
+            check = check && false;
+        } else {
+            FieldError("NO")
         }
         if (!$("[name=NAME]").val()) {
-            $("[name=NAME]").attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
+            FieldError("NAME", "[客戶名稱]為必填")
             check = check && false;
+        } else if ($("[name=NAME]").val().length > 50) {
+            FieldError("NAME", "[客戶名稱]不可超過50個字元")
+            check = check && false;
+        } else {
+            FieldError("NAME")
         }
         if (!$("[name=IDNO]").val()) {
-            $("[name=IDNO]").attr("aria-invalid", true).closest("div").find(".help-block-error").html('此欄位為必填').closest(".form-md-line-input").addClass("has-error");
+            FieldError("IDNO", "[身分證字號或營利事業統一編號]為必填")
             check = check && false;
+        } else if ($("[name=IDNO]").val().length > 10) {
+            FieldError("IDNO", "[身分證字號或營利事業統一編號]不可超過10個字元")
+            check = check && false;
+        } else {
+            FieldError("IDNO")
         }
+        return check;
+    }
+    function FieldError(Field, ErrorMsg) {
+        if (ErrorMsg) 
+            $("[name=" + Field + "]").attr("aria-invalid", true).closest("div").find(".help-block-error").html(ErrorMsg).closest(".form-md-line-input").addClass("has-error");
+        else 
+            $("[name=" + Field + "]").attr("aria-invalid", false).closest("div").find(".help-block-error").html('').closest(".form-md-line-input").removeClass("has-error");
     }
 </script>

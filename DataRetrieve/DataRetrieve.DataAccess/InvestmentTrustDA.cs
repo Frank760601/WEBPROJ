@@ -93,5 +93,19 @@ namespace DataRetrieve.DataAccess
 
             return ((bool)result) ? (true, "成功") : (false, "失敗");
         }
+        public bool DeleteInvestmentTrust(string NO)
+        {
+            string SQL = "DELETE FROM AMD..tblInvestmentTrust WHERE NO = @NO";
+            var p = new DynamicParameters();
+            p.Add("@NO", NO);
+
+            ISqlHelper sqlHelper = SQLHelper.GetInstance("Dapper", Configurations.AMDConnectionString);
+
+            sqlHelper.Open();
+            bool result = sqlHelper.ExecuteNonQuery(SQL, 1, (dynamic)p);
+            sqlHelper.Close();
+
+            return result;
+        }
     }
 }

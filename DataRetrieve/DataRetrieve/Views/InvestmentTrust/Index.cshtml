@@ -24,9 +24,9 @@
 <body>
     <div class="row">
         <form asp-controller="InvestmentTrust" asp-action="PartialIndex" data-ajax="true" enctype="multipart/form-data" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#content">
-            <input type="hidden" name="vNO" value="">
-            <input type="hidden" name="vIDNO" value="">
-            <input type="hidden" name="vNAME" value="">
+            @Html.Hidden("vNO")
+            @Html.Hidden("vIDNO")
+            @Html.Hidden("vNAME")
             <div class="col-md-8">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
@@ -38,21 +38,21 @@
                                 <div class="col-md-2 col-xs-12" style="padding:0%!important">
                                     <div class="col-md-4 col-xs-12" style="float:left;margin-top:5px;padding:0%">編號：</div>
                                     <div class="col-md-8 col-xs-12" style="padding:0%">
-                                        <input type="text" class="form-control" name="NO">
+                                        @Html.TextBox("NO", null, new { @class = "form-control" })
                                     </div>
                                 </div>
                                 <div class="col-md-5 col-xs-12" style="padding:0%!important">
                                     <div class="col-md-6 col-xs-12" style="float:left;margin-top:5px;padding:0%">身份證字號或營利事業統一編號：</div>
                                     <div class="col-md-6 col-xs-12" style="padding:0%">
                                         <div class="col-md-11 col-xs-12" style="padding:0%!important">
-                                            <input type="text" class="form-control" name="IDNO">
+                                            @Html.TextBox("IDNO", null, new { @class = "form-control" })
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-xs-12" style="padding:0%!important">
                                     <div class="col-md-3 col-xs-12" style="float:left;margin-top:5px;padding:0%">客戶名稱：</div>
                                     <div class="col-md-7 col-xs-12" style="padding:0%">
-                                        <input type="text" class="form-control" name="NAME">
+                                        @Html.TextBox("NAME", null, new { @class = "form-control" })
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" name="page">
+            @Html.Hidden("page")
             <input type="submit" value="Search Books" style="display:none" onclick="" />
 
         </form>

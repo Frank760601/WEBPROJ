@@ -23,3 +23,4 @@ C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreap
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.AssemblyInfo.cs
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.dll
 C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.pdb
+C:\webproject\WEBPROJ\DataRetrieve\DataRetrieve.ConfigHelper\obj\Debug\netcoreapp2.1\DataRetrieve.ConfigHelper.csprojAssemblyReference.cache

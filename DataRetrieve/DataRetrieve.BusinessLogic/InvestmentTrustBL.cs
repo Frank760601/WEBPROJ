@@ -40,5 +40,11 @@ namespace DataRetrieve.BusinessLogic
 
             return result;
         }
+        public (bool MsgCode, string MsgName) DeleteInvestmentTrust(string NO)
+        {
+            var result = InvestmentTrustDA.getInstance().DeleteInvestmentTrust(NO);
+
+            return result ? (result, "成功") : (result, "失敗");
+        }
     }
 }

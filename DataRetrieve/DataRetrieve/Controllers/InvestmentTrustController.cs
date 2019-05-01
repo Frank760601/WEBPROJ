@@ -93,5 +93,14 @@ namespace DataRetrieve.Controllers
 
             return RedirectToAction("ReIndex", "InvestmentTrust", new { MsgCode = data.MsgCode, MsgName = data.MsgName });
         }
+        [HttpPost]
+        public async Task<JsonResult> Delete()
+        {
+            dynamic model = new ExpandoObject();
+            IFormCollection form = await HttpContext.Request.ReadFormAsync();
+            (model.MsgCode, model.MsgName) = InvestmentTrustBL.getInstance().DeleteInvestmentTrust(form["NO"].ToString());
+
+            return Json(model);
+        }
     }
 }

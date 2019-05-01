@@ -37,10 +37,11 @@
                                         {
                                             @:<tr class="gradeX odd" role="row">
                                                 var row = (Item as IDictionary<string, object>).Values.ToList();
-                                                <td class="center" nowrap="nowrap" style="text-align:center">
-                                                    <a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple btnEdit"><i class="fa fa-edit"></i> 修改</a>
-                                                    <a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple btnSave" style="display:none"><i class="fa fa-edit"></i> 儲存</a>
-                                                </td>
+                                                  <td class="center" nowrap="nowrap" style="text-align:center">
+                                                      <a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple btnEdit"><i class="fa fa-edit"></i> 修改</a>
+                                                      <a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple btnSave" style="display:none"><i class="fa fa-edit"></i> 儲存</a>
+                                                      <a href="javascript:;" class="btn btn-outline btn-circle dark btn-sm black btnDelete"><i class="fa fa-calendar-minus-o"></i> 刪除</a>
+                                                  </td>
                                                 @for (int i = 0; i < row.Count() - 1; i++)
                                                 {
                                                     var value = row[i];
@@ -48,14 +49,14 @@
                                                     {
                                                         <td class="center" nowrap="nowrap" style="text-align:right">
                                                             <span class="Show">@(Decimal.ToInt32(Decimal.Parse(value.ToString())) == 0 ? 0 : Decimal.ToInt32(Decimal.Parse(value.ToString())))</span>
-                                                            <input type="text" class="form-control Edit" value="@(Decimal.ToInt32(Decimal.Parse(value.ToString())) == 0 ? 0 : Decimal.ToInt32(Decimal.Parse(value.ToString())))" style="display:none">
+                                                            <input type="text" class="form-control Edit" style="display:none" value="@(Decimal.ToInt32(Decimal.Parse(value.ToString())) == 0 ? 0 : Decimal.ToInt32(Decimal.Parse(value.ToString())))">
                                                         </td>
                                                     }
                                                     else
                                                     {
                                                         <td class="center" nowrap="nowrap" style="text-align:center">
                                                             <span class="Show">@value</span>
-                                                            <input type="text" class="form-control Edit" value="@value" style="display:none">
+                                                            <input type="text" class="form-control Edit" style="display:none" value="@value">
                                                         </td>
                                                     }
                                                 }
@@ -222,8 +223,6 @@
 <script src="~/js/jquery.animateNumber.js"></script>
 <script>
     var EditING = false;
-    var Check = true;
-    var strCheck = "";
     $(function () {
         $(".dataTables_paginate").find("ul").addClass("pagination");
         var obj = $(".pagination").find("a");
@@ -252,9 +251,13 @@
             var IDNO = $(this).closest("tr").find(".Edit:eq(2)").val()
             
             var obj = $(this)
-            CheckField(obj)
-            if (!Check) {
-                alert(strCheck)
+            var strCheck = CheckField(obj)
+            if (strCheck) {
+                swal({
+                    title:'欄位檢核',
+                    type: 'info',
+                    html: strCheck
+                })
             } else {
                 swal({
                     title: "確定修改？",
@@ -291,17 +294,49 @@
                     });//end then 
             }
         })
+        $(".btnDelete").click(function () { 
+            var NO = $(this).closest("tr").find(".Edit:eq(0)").val()
+
+            swal({
+                title: "確定刪除？",
+                type: "question",
+                showCancelButton: true//顯示取消按鈕
+            }).then(
+                function (result) {
+                    if (result.value) {
+                        //使用者按下「確定」要做的事
+                        
+                        $.ajax({
+                            type: 'POST',
+                            url: '@Url.Action("Delete","InvestmentTrust")',
+                            data: { NO: NO }, //發送參數
+                            success: function (data) {
+                                $("[name=page]").val(1)
+                                $("[name=txbSearch]").submit();
+                                swal("群益投信客戶", "刪除" + data.MsgName + "！", "success");
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                alert(xhr.responseText)
+                            }
+                        });
+                    } 
+            });//end then 
+        })
     })
     function CheckField(obj) {
-        Check = true;
         strCheck = "";
-        if (!$(obj).closest("tr").find(".Edit:eq(1)").val()) {
-            Check = Check && false;
-            strCheck += "客戶名稱為必填\n";
+        var Name = $(obj).closest("tr").find(".Edit:eq(1)").val();
+        var IDNO = $(obj).closest("tr").find(".Edit:eq(2)").val()
+        if (!Name) {
+            strCheck += "[客戶名稱]為必填<br/>";
+        } else if (Name.length > 50) {
+            strCheck += "[客戶名稱]不可超過50個字元<br/>";
         }
-        if (!$(obj).closest("tr").find(".Edit:eq(2)").val()) {
-            Check = Check && false;
-            strCheck += "身份證字號或營利事業統一編號為必填";
+        if (!IDNO) {
+            strCheck += "[身份證字號或營利事業統一編號]為必填<br/>";
+        } else if (IDNO.length > 10) {
+            strCheck += "[身份證字號或營利事業統一編號]不可超過10個字元<br/>";
         }
+        return strCheck;
     }
 </script>
