@@ -122,7 +122,7 @@ using System.Reflection;
             WriteLiteral("<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(445, 731, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b3c35bbab6a94e9799cd549ee7b1810f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0bc2b38504c94fe4be8c63994854668c", async() => {
                 BeginContext(451, 431, true);
                 WriteLiteral(@"
     <meta charset=""utf-8"" />
@@ -134,7 +134,7 @@ using System.Reflection;
     ");
                 EndContext();
                 BeginContext(882, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "1e39e2933ea24bafb68911961aa86970", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7b972425e0214c3886f77addc1633dc8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -168,12 +168,12 @@ using System.Reflection;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1178, 3104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "609de954c0ce4a7d8f208e491ce963b0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3f316472b2b43999abeca4995b17e80", async() => {
                 BeginContext(1184, 33, true);
                 WriteLiteral("\r\n    <div class=\"row\">\r\n        ");
                 EndContext();
                 BeginContext(1217, 2826, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ca3c8aa905942de84d7d1dd72392cf0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c3ca4aa7d8b482cb15ba09d87bc851e", async() => {
                     BeginContext(1406, 14, true);
                     WriteLiteral("\r\n            ");
                     EndContext();
